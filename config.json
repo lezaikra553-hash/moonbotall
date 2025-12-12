@@ -1,0 +1,12 @@
+{
+  "coins": ["DOGE/USDT", "SOL/USDT", "BTC/USDT", "ETH/USDT"],
+  "amounts": {"DOGE/USDT": 5.0, "SOL/USDT": 3.0, "BTC/USDT": 1.0, "ETH/USDT": 1.0},
+  "interval": 15,
+  "sma_period": 12,
+  "buy_dip_pct": 0.35,
+  "sell_pump_pct": 0.55,
+  "take_profit_pct": 0.75,
+  "stop_loss_pct": 2.0,
+  "max_positions": 4,
+  "paper": true
+}
