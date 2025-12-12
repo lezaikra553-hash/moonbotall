@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: moonbot-agr-multicoin
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: PAPER
+        value: "true"
+      # Note: add OKX_API_KEY / OKX_API_SECRET / OKX_API_PASSPHRASE in Render dashboard securely when going live
